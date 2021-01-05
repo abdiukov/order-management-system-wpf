@@ -1,0 +1,90 @@
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\Domain\obj\Debug\netstandard2.0\Domain.pdb

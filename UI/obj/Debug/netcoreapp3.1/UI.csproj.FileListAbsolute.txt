@@ -1,0 +1,483 @@
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\Programming Event 1 of 3 part12 DUE WEDNESDAY\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Project - Copy (2)\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\21-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\22-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\30-11-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\3-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\4v2-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\5-12-2020-Project\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Ash\Desktop\Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll.config
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\ApplicationLogicLayer.exe.config
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\bin\Debug\netcoreapp3.1\DataAccessLayer_.exe.config
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.g.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.g.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrderItem_Window.baml
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\AddOrder_Window.baml
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Cert 4 TAFE\Cert IV Assessments\OrderAssessment\Application\OrderManagementSystem\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
