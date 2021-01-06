@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "doFZodKUGQq+8QI7hIrl00ccnweOoChOZAPcB5Tl0bF/GRGWi5KuOEiwAWkpVVa1tem+6xLvUVvpf/ikcPVKkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ash\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ash\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
