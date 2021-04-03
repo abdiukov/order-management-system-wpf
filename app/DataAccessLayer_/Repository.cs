@@ -14,7 +14,6 @@ namespace DataAccess
         public Repository()
         {
             _connectionString = ConfigurationManager.ConnectionStrings["DatabaseConnection"].ConnectionString;
-            //_connectionString = "Data Source=DESKTOP-SDCBG14\\SQLEXPRESS;Initial Catalog=OrderManagementDb;Integrated Security=True";
         }
 
 

@@ -2,7 +2,7 @@
 
 namespace Domain
 {
-    public class OrderHeader : OrderState
+    public class OrderHeader
     {
 
         /// <summary>
@@ -47,79 +47,5 @@ namespace Domain
             this.Id = Id;
             this.State = State;
         }
-
-
-        //I did not end up needing to use functions/properties below
-        //These functions/properties were implemented in either AddOrder_Window or AddOrderItem_Window
-
-
-        //private readonly string _orderItems;
-
-
-        //public double Total
-        //{
-        //    get; set;
-        //}
-
-
-        //public void AddOrderItem()
-        //{
-
-
-        //}
-        //public void Complete()
-        //{
-
-
-        //}
-
-        //public void OrderHeader_()
-        //{
-
-
-        //}
-
-
-        //public void Reject()
-        //{
-
-
-        //}
-
-        //public OrderState StateId
-        //{
-        //    get;
-        //    set;
-        //}
-
-
-        //private void setState(int id)
-        //{
-        //    //selecting the correct enumerator with the id
-        //    OrderStates enum_selected = (OrderStates)id;
-
-
-        //    switch (enum_selected)
-        //    {
-        //        case OrderStates.New:
-        //            StateId = new OrderNew(this);
-        //            break;
-        //        case OrderStates.Pending:
-        //            StateId = new OrderPending(this);
-        //            break;
-        //        case OrderStates.Rejected:
-        //            StateId = new OrderRejected(this);
-        //            break;
-        //        case OrderStates.Complete:
-        //            StateId = new OrderComplete(this);
-        //            break;
-        //    }
-        //}
-
-        //public void Submit()
-        //{
-
-        //}
-
     }
 }

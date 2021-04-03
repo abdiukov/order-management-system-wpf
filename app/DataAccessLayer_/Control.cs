@@ -15,7 +15,6 @@ namespace DataAccessLayer
         /// </summary>
         public Control()
         {
-
             Repository conn_string = new Repository();
             _connectionString = conn_string._connectionString;
 
@@ -299,44 +298,6 @@ namespace DataAccessLayer
             }
             return output;
         }
-
-        /// <summary>
-        /// GetStockItem does not get used in this program, however this component is fully functional.
-        /// Retrieves the stock item of the specific id
-        /// </summary>
-        /// <param name="id">Id of stock item</param>
-        /// <returns>Stock item of that Id</returns>
-        public StockItem GetStockItem(int id)
-        {
-            StockItem retrieveStockItem;
-            SqlConnection conn = new SqlConnection(_connectionString);
-
-            SqlCommand cmd = new SqlCommand("exec sp_SelectStockItemById " + id, conn);
-
-            SqlDataReader dataReader = cmd.ExecuteReader();
-            dataReader.Read();
-            {
-
-                retrieveStockItem = new StockItem
-                {
-                    Id = dataReader.GetInt32(0),
-                    Name = dataReader.GetString(1),
-                    Price = Convert.ToDouble(dataReader.GetDecimal(2)),
-                    InStock = dataReader.GetInt32(3)
-                };
-            }
-
-            //Execute query
-            conn.Open();
-            cmd.ExecuteNonQuery();
-
-            //disposing
-            conn.Dispose();
-            cmd.Dispose();
-
-            return retrieveStockItem;
-        }
-
 
         /// <summary>
         /// Updates the amount of stock item

@@ -76,12 +76,5 @@
             this.Total = Total;
         }
 
-
-        //OrderHeader was not used, I am not sure why and when it should have been used
-
-        //public string OrderHeader
-        //{
-        //    get;set;
-        //}
     }
 }

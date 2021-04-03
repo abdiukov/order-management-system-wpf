@@ -10,7 +10,6 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-
         private int orderHeaderID;
         private LogicLayer layer;
         private int quantity_of_stockitem_tested;
@@ -46,27 +45,24 @@ namespace UnitTestProject1
             int orderHeaderID = layer.CreateNewOrderHeader();
             this.orderHeaderID = orderHeaderID;
 
-
-
             IEnumerable<StockItem> allItems = layer.GetStockItems();
-
 
             double Price = allItems.ElementAt(0).Price;
 
+            OrderItem input = new OrderItem("In_stock", orderHeaderID, Price,
+                quantity_of_stockitem_tested, id_of_stockitem_tested, (Price * quantity_of_stockitem_tested));
 
-            OrderItem input = new OrderItem("In_stock", orderHeaderID, Price, quantity_of_stockitem_tested, id_of_stockitem_tested, (Price * quantity_of_stockitem_tested));
-
-
-            //layer.UpsertOrderItem(input., Price, orderHeaderID, id_of_stockitem_tested, quantity_of_stockitem_tested);
-            layer.UpsertOrderItem(input.Description, input.Price, input.OrderHeaderId, input.StockItemId, input.Quantity);
-
+            layer.UpsertOrderItem(input.Description, input.Price, input.OrderHeaderId,
+                input.StockItemId, input.Quantity);
 
             OrderItem output = layer.ProcessOrder(orderHeaderID).ElementAt(0);
 
             //create an order header object and compare it 
 
-            Assert.AreEqual(input.Description + " " + input.Price + " " + input.OrderHeaderId + " " + input.StockItemId + " " + input.Quantity + " " + input.Total,
-                output.Description + " " + output.Price + " " + output.OrderHeaderId + " " + output.StockItemId + " " + output.Quantity + " " + output.Total);
+            Assert.AreEqual(input.Description + " " + input.Price + " " + input.OrderHeaderId +
+                " " + input.StockItemId + " " + input.Quantity + " " + input.Total,
+                output.Description + " " + output.Price + " " + output.OrderHeaderId + " " +
+                output.StockItemId + " " + output.Quantity + " " + output.Total);
         }
 
 
@@ -81,7 +77,6 @@ namespace UnitTestProject1
         public void TestTwo()
         {
             bool item_has_been_retrieved = false;
-            var item_before_removal = layer.ProcessOrder(orderHeaderID).ElementAt(0);
             layer.DeleteOrderItem(orderHeaderID, id_of_stockitem_tested, quantity_of_stockitem_tested, "In_stock");
 
             try
