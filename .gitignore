@@ -1,0 +1,15 @@
+
+app/UI/bin/Debug/
+app/UI/obj/Debug/
+
+app/UnitTestProject1/bin/Debug/
+app/UnitTestProject1/obj/Debug/
+
+app/Domain/bin/Debug/
+app/Domain/obj/Debug/
+
+app/DataAccessLayer_/bin/Debug/
+app/DataAccessLayer_/obj/Debug/
+
+app/ApplicationLogicLayer/bin/Debug/
+app/ApplicationLogicLayer/obj/Debug/
