@@ -1,8 +1,8 @@
-﻿using System;
+﻿using DataAccess;
+using Domain;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using Domain;
-using DataAccess;
 
 namespace DataAccessLayer
 {
@@ -16,8 +16,8 @@ namespace DataAccessLayer
         public Control()
         {
 
-                Repository conn_string = new Repository();
-                _connectionString = conn_string._connectionString;
+            Repository conn_string = new Repository();
+            _connectionString = conn_string._connectionString;
 
         }
 
@@ -196,7 +196,8 @@ namespace DataAccessLayer
                 //disposing
                 conn.Dispose();
                 cmd.Dispose();
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine("An error has occured at the UpdateOrderItem()\n" + ex);
             }
@@ -222,7 +223,7 @@ namespace DataAccessLayer
                 conn.Dispose();
                 cmd.Dispose();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex);
             }
@@ -237,17 +238,18 @@ namespace DataAccessLayer
         {
             try
             {
-            SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(_connectionString);
 
-            SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderItem " + OrderHeaderId + " , " + StockItemId, conn);
+                SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderItem " + OrderHeaderId + " , " + StockItemId, conn);
 
-            //Execute query
-            conn.Open();
-            cmd.ExecuteNonQuery();
-            //disposing
-            conn.Dispose();
-            cmd.Dispose();
-            }catch(Exception ex)
+                //Execute query
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                //disposing
+                conn.Dispose();
+                cmd.Dispose();
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex);
             }
@@ -263,33 +265,35 @@ namespace DataAccessLayer
         {
             var output = new List<StockItem>();
 
-            try { 
-
-            SqlConnection conn = new SqlConnection(_connectionString);
-
-            SqlCommand cmd = new SqlCommand("exec sp_SelectStockItems ", conn);
-            conn.Open();
-
-            SqlDataReader dataReader = cmd.ExecuteReader();
-            if (dataReader.HasRows)
+            try
             {
-                while (dataReader.Read())
+
+                SqlConnection conn = new SqlConnection(_connectionString);
+
+                SqlCommand cmd = new SqlCommand("exec sp_SelectStockItems ", conn);
+                conn.Open();
+
+                SqlDataReader dataReader = cmd.ExecuteReader();
+                if (dataReader.HasRows)
                 {
-
-                    StockItem stockItem = new StockItem
+                    while (dataReader.Read())
                     {
-                        Id = dataReader.GetInt32(0),
-                        Name = dataReader.GetString(1),
-                        Price = Convert.ToDouble(dataReader.GetDecimal(2)),
-                        InStock = dataReader.GetInt32(3)
-                    };
-                    output.Add(stockItem);
-                }
-            }
 
-            conn.Dispose();
-            cmd.Dispose();
-            }catch(Exception ex)
+                        StockItem stockItem = new StockItem
+                        {
+                            Id = dataReader.GetInt32(0),
+                            Name = dataReader.GetString(1),
+                            Price = Convert.ToDouble(dataReader.GetDecimal(2)),
+                            InStock = dataReader.GetInt32(3)
+                        };
+                        output.Add(stockItem);
+                    }
+                }
+
+                conn.Dispose();
+                cmd.Dispose();
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex);
             }

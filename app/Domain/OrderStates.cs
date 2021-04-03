@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain
+﻿namespace Domain
 {
     /// <summary>
     /// Enumerator is used to translates different order states from int to string.

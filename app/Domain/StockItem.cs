@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain
+﻿namespace Domain
 {
     /// <summary>
     /// StockItem - used to pass on items inside the Control.cs

@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using ApplicationLogicLayer;
+﻿using ApplicationLogicLayer;
 using Domain;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -90,7 +89,7 @@ namespace UnitTestProject1
                 layer.ProcessOrder(orderHeaderID).ElementAt(0);
                 item_has_been_retrieved = true;
             }
-            catch (Exception) {};
+            catch (Exception) { };
 
             Assert.AreEqual(item_has_been_retrieved, false);
 

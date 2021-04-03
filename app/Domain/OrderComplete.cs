@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain
+﻿namespace Domain
 {
     /// <summary>
     /// Did not end up needing this class
     /// OrderComplete logic is instead implemented in AppOrder_Window.xaml.cs
     /// </summary>
-    public class OrderComplete:OrderState
+    public class OrderComplete : OrderState
     {
 
         //private readonly OrderHeader orderHeader;

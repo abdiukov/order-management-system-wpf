@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain
+﻿namespace Domain
 {
     /// <summary>
     /// The class did not end up being used
     /// Transition between orders was done inside AddOrder_Window.xaml.cs
     /// </summary>
-    public class OrderNew:OrderState
+    public class OrderNew : OrderState
     {
         //private readonly OrderHeader orderHeader;
 

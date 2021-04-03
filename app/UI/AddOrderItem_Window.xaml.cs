@@ -1,17 +1,7 @@
 ﻿using ApplicationLogicLayer;
 using Domain;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace UI
 {
@@ -79,7 +69,7 @@ namespace UI
             }
 
             //selecting the item that the user has clicked on in the datagrid (dgStockItems)
-            
+
 
             StockItem selected_item = layer.GetStockItems().ElementAt(dgStockItems.SelectedIndex);
 
@@ -91,7 +81,7 @@ namespace UI
             string description;
 
             //If the quantity selected is more than in stock, the description of the item in the database changes to "Not_In_Stock"
-            
+
             if (quantity > inStock)
             {
                 userConfirmedToSave = MessageBox.Show("There are currently not enough items in stock.\nRequested: " + quantity + " , In stock: " + inStock + "\nThis order might be rejected if there is not enough stock on hand when the order is being processed.\nDo you wish to proceed?", "Info", MessageBoxButton.YesNo, MessageBoxImage.Warning);

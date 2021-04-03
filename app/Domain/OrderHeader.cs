@@ -1,18 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Domain
 {
     public class OrderHeader : OrderState
     {
-        
+
         /// <summary>
         /// The Date and Time when the OrderHeader was created
         /// </summary>
         public DateTime DateTime
         {
-            get;set;
+            get; set;
         }
 
         /// <summary>
@@ -21,7 +19,7 @@ namespace Domain
         /// </summary>
         public int Id
         {
-            get;set;
+            get; set;
         }
 
         /// <summary>
@@ -33,7 +31,7 @@ namespace Domain
         /// </summary>
         public int State
         {
-            get;set;
+            get; set;
         }
 
 
@@ -53,7 +51,7 @@ namespace Domain
 
         //I did not end up needing to use functions/properties below
         //These functions/properties were implemented in either AddOrder_Window or AddOrderItem_Window
-        
+
 
         //private readonly string _orderItems;
 

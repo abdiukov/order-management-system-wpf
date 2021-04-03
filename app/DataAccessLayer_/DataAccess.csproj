@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2330344D-31B2-4D6F-AA9F-AED0F7EAE3BE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>DataAccessLayer_</RootNamespace>
     <AssemblyName>DataAccessLayer_</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,7 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
   </ItemGroup>

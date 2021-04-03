@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Domain
+﻿namespace Domain
 {
     public class OrderItem
     {
@@ -16,7 +12,7 @@ namespace Domain
         /// </summary>
         public string Description
         {
-            get;set;
+            get; set;
         }
 
 
@@ -25,15 +21,15 @@ namespace Domain
         /// </summary>
         public int OrderHeaderId
         {
-            get;set;
+            get; set;
         }
-        
+
         /// <summary>
         /// The Price of the order item
         /// </summary>
         public double Price
         {
-            get;set;
+            get; set;
         }
 
         /// <summary>
@@ -41,15 +37,15 @@ namespace Domain
         /// </summary>
         public int Quantity
         {
-            get;set;
+            get; set;
         }
-        
+
         /// <summary>
         /// The id of the stock itme
         /// </summary>
         public int StockItemId
         {
-            get;set;
+            get; set;
         }
 
         /// <summary>
@@ -57,7 +53,7 @@ namespace Domain
         /// </summary>
         public double Total
         {
-            get;set;
+            get; set;
         }
 
 
@@ -70,7 +66,7 @@ namespace Domain
         /// <param name="Quantity">The quantity of the order item</param>
         /// <param name="StockItemId">The id of the stock itme</param>
         /// <param name="Total">The total calculated by = quantity * price</param>
-        public OrderItem(string Description,int OrderHeaderId, double Price, int Quantity, int StockItemId, double Total)
+        public OrderItem(string Description, int OrderHeaderId, double Price, int Quantity, int StockItemId, double Total)
         {
             this.Description = Description;
             this.Quantity = Quantity;

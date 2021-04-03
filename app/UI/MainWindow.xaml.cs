@@ -1,19 +1,8 @@
-﻿using System;
+﻿using ApplicationLogicLayer;
+using Domain;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using ApplicationLogicLayer;
-using Domain;
 
 namespace UI
 {
@@ -37,7 +26,7 @@ namespace UI
             AllOrderHeaders = layer.GetOrderHeaders();
             dgMainMenu.ItemsSource = AllOrderHeaders;
         }
-         
+
         /// <summary>
         /// Creates a new order header (by using LogicLayer class)
         /// Retrieves the id from that new order header
