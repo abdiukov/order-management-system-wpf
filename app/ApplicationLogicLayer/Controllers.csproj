@@ -50,9 +50,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer_\DataAccess.csproj">
       <Project>{2330344d-31b2-4d6f-aa9f-aed0f7eae3be}</Project>
       <Name>DataAccess</Name>

@@ -74,9 +74,6 @@
     <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{7bab1408-4552-4530-a403-cbb7d24ce93d}</Project>
       <Name>Domain</Name>
