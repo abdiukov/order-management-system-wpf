@@ -131,23 +131,23 @@
           }
         }
       },
-      "Controllers/1.0.0": {
+      "Controller/1.0.0": {
         "type": "project",
         "dependencies": {
           "DataAccess": "1.0.0",
-          "Domain": "1.0.0"
+          "Model": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Controllers.dll": {}
+          "bin/placeholder/Controller.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Controllers.dll": {}
+          "bin/placeholder/Controller.dll": {}
         }
       },
       "DataAccess/1.0.0": {
         "type": "project",
         "dependencies": {
-          "Domain": "1.0.0"
+          "Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DataAccess.dll": {}
@@ -156,14 +156,13 @@
           "bin/placeholder/DataAccess.dll": {}
         }
       },
-      "Domain/1.0.0": {
+      "Model/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain.dll": {}
+          "bin/placeholder/Model.dll": {}
         }
       }
     }
@@ -482,26 +481,26 @@
         "version.txt"
       ]
     },
-    "Controllers/1.0.0": {
+    "Controller/1.0.0": {
       "type": "project",
-      "path": "../ApplicationLogicLayer/Controllers.csproj",
-      "msbuildProject": "../ApplicationLogicLayer/Controllers.csproj"
+      "path": "../ApplicationLogicLayer/Controller.csproj",
+      "msbuildProject": "../ApplicationLogicLayer/Controller.csproj"
     },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccessLayer_/DataAccess.csproj",
       "msbuildProject": "../DataAccessLayer_/DataAccess.csproj"
     },
-    "Domain/1.0.0": {
+    "Model/1.0.0": {
       "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Controllers >= 1.0.0",
-      "Domain >= 1.0.0",
+      "Controller >= 1.0.0",
+      "Model >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -540,11 +539,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controllers.csproj": {
-              "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controllers.csproj"
+            "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj": {
+              "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj"
             },
-            "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Domain\\Domain.csproj"
+            "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
             }
           }
         }

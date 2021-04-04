@@ -5,8 +5,8 @@ app/UI/obj/Debug/
 app/UnitTestProject1/bin/Debug/
 app/UnitTestProject1/obj/Debug/
 
-app/Domain/bin/Debug/
-app/Domain/obj/Debug/
+app/Model/bin/Debug/
+app/Model/obj/Debug/
 
 app/DataAccessLayer_/bin/Debug/
 app/DataAccessLayer_/obj/Debug/

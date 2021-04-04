@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Model
 {
     /// <summary>
     /// Enumerator is used to translates different order states from int to string.

@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Model
 {
     /// <summary>
     /// StockItem - used to pass on items inside the Control.cs

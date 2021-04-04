@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Model
 {
     public class OrderItem
     {

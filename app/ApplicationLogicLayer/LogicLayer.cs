@@ -1,9 +1,9 @@
 ﻿using DataAccessLayer;
-using Domain;
+using Model;
 using System;
 using System.Collections.Generic;
 
-namespace ApplicationLogicLayer
+namespace Controller
 {
     public class LogicLayer
     {

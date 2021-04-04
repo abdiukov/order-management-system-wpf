@@ -57,13 +57,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ApplicationLogicLayer\Controllers.csproj">
+    <ProjectReference Include="..\ApplicationLogicLayer\Controller.csproj">
       <Project>{47E08D8B-EF43-4DF8-BC1D-1DEB06E55E93}</Project>
-      <Name>Controllers</Name>
+      <Name>Controller</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{7BAB1408-4552-4530-A403-CBB7D24CE93D}</Project>
-      <Name>Domain</Name>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{CBC15D76-11D2-42B0-BC2B-524176B32431}</Project>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
