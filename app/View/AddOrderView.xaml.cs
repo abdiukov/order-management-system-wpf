@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 
-namespace UI
+namespace View
 {
     /// <summary>
-    /// Interaction logic for AddOrder_Window.xaml
+    /// Interaction logic for AddOrderView.xaml
     /// </summary>
-    public partial class AddOrder_Window : Window
+    public partial class AddOrderView : Window
     {
         private LogicLayer layer;
         private OrderHeader currentOrderHeader;
@@ -25,7 +25,7 @@ namespace UI
         /// Afterwards calls the function to update all the information on the page
         /// </summary>
         /// <param name="OrderHeaderID">The ID of the orderheaderID</param>
-        public AddOrder_Window(int OrderHeaderID)
+        public AddOrderView(int OrderHeaderID)
         {
             InitializeComponent();
             this.OrderHeaderID = OrderHeaderID;
@@ -66,13 +66,13 @@ namespace UI
             {
                 case false:
                     DateTime time_of_order = DateTime.Now;
-                    int orderHeaderState = (int)Enum.Parse<OrderStates>("New");
+                    int orderHeaderState = (int)Enum.Parse(typeof(OrderStates), "New");
                     currentOrderHeader = new OrderHeader(time_of_order, OrderHeaderID, orderHeaderState);
                     break;
             }
 
             // 3. Hides "Add" button and "Submit" button if order state is "Complete".
-            if (currentOrderHeader.State == (int)Enum.Parse<OrderStates>("Complete"))
+            if (currentOrderHeader.State == (int)Enum.Parse(typeof(OrderStates), "Complete")) ;
             {
                 Btn_Add_Order.Visibility = Visibility.Hidden;
                 Btn_Submit.Visibility = Visibility.Hidden;
@@ -113,7 +113,7 @@ namespace UI
         /// </summary>
         private void NavigateBack()
         {
-            MainWindow pageobj = new MainWindow();
+            MainView pageobj = new MainView();
             pageobj.Show();
             Close();
         }
@@ -126,7 +126,7 @@ namespace UI
         /// <param name="e"></param>
         private void Btn_Add_Order_Click(object sender, RoutedEventArgs e)
         {
-            AddOrderItem_Window add_order = new AddOrderItem_Window(currentOrderHeader.Id);
+            AddOrderItemView add_order = new AddOrderItemView(currentOrderHeader.Id);
             add_order.Show();
             Close();
         }
@@ -139,7 +139,7 @@ namespace UI
         /// <param name="e"></param>
         private void BtnDelete_Click(object sender, RoutedEventArgs e)
         {
-            if (currentOrderHeader.State != (int)Enum.Parse<OrderStates>("Complete"))
+            if (currentOrderHeader.State != (int)Enum.Parse(typeof(OrderStates), "Complete"))
             {
                 int item_toBeDeleted_ID = current_orders.ElementAt(dgOrderItem.SelectedIndex).StockItemId;
                 int item_toBeDeleted_Quantity = current_orders.ElementAt(dgOrderItem.SelectedIndex).Quantity;
@@ -178,7 +178,7 @@ namespace UI
             //if there is a single item that is not in stock OR there is less than 1 item, then the order gets automatically rejected
             if ((allItems_inStock == false || current_orders.Count < 1) && comparison.ToString() != "New")
             {
-                currentOrderHeader.State = (int)Enum.Parse<OrderStates>("Rejected");
+                currentOrderHeader.State = (int)Enum.Parse(typeof(OrderStates), "Rejected");
             }
             else
             {
@@ -186,10 +186,10 @@ namespace UI
                 {
                     case "New":
                     case "Rejected":
-                        currentOrderHeader.State = (int)Enum.Parse<OrderStates>("Pending");
+                        currentOrderHeader.State = (int)Enum.Parse(typeof(OrderStates), "Pending");
                         break;
                     default:
-                        currentOrderHeader.State = (int)Enum.Parse<OrderStates>("Complete");
+                        currentOrderHeader.State = (int)Enum.Parse(typeof(OrderStates), "Complete");
                         break;
                 }
             }

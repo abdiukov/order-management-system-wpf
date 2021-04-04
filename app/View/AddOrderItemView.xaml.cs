@@ -3,12 +3,12 @@ using Model;
 using System.Linq;
 using System.Windows;
 
-namespace UI
+namespace View
 {
     /// <summary>
-    /// Interaction logic for AddOrderItem_Window.xaml
+    /// Interaction logic for AddOrderItemView.xaml
     /// </summary>
-    public partial class AddOrderItem_Window : Window
+    public partial class AddOrderItemView : Window
     {
         private readonly LogicLayer layer = new LogicLayer();
         private readonly int orderHeaderID;
@@ -17,7 +17,7 @@ namespace UI
         /// Constructor for AddOrderItem
         /// </summary>
         /// <param name="orderHeaderID">The unique ID of the order header</param>
-        public AddOrderItem_Window(int orderHeaderID)
+        public AddOrderItemView(int orderHeaderID)
         {
             InitializeComponent();
             this.orderHeaderID = orderHeaderID;
@@ -30,8 +30,8 @@ namespace UI
         /// </summary>
         private void NavigateBack()
         {
-            AddOrder_Window new_window = new AddOrder_Window(orderHeaderID);
-            new_window.Show();
+            AddOrderView newView = new AddOrderView(orderHeaderID);
+            newView.Show();
             Close();
         }
 
