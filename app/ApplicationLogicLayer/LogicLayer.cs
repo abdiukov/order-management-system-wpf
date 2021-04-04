@@ -13,7 +13,7 @@ namespace Controller
         /// </summary>
         public LogicLayer()
         {
-            control = new Control();
+            this.control = new Control();
         }
 
 
@@ -25,16 +25,16 @@ namespace Controller
         /// <returns>List of sorted order headers</returns>
         public List<OrderHeader> GetOrderHeaders()
         {
-            List<OrderHeader> sorted_list = new List<OrderHeader>();
+            List<OrderHeader> sortedList = new List<OrderHeader>();
             try
             {
-                List<OrderHeader> unsorted_list = control.GetOrderHeaders();
-                sorted_list.Add(unsorted_list[0]);
-                for (int i = 1; i < unsorted_list.Count; i++)
+                List<OrderHeader> unsortedList = control.GetOrderHeaders();
+                sortedList.Add(unsortedList[0]);
+                for (int i = 1; i < unsortedList.Count; i++)
                 {
-                    if (unsorted_list[i].Id != unsorted_list[i - 1].Id)
+                    if (unsortedList[i].Id != unsortedList[i - 1].Id)
                     {
-                        sorted_list.Add(unsorted_list[i]);
+                        sortedList.Add(unsortedList[i]);
                     }
                 }
             }
@@ -42,10 +42,10 @@ namespace Controller
             {
                 Console.WriteLine("An error has occured in the GetOrderHeaders()" +
                 "\nThis error most likely occured because there are no order headers AT ALL inside the database\n" +
-                ex);
+                ex.Message);
 
             };
-            return sorted_list;
+            return sortedList;
         }
 
         /// <summary>
@@ -55,8 +55,7 @@ namespace Controller
         /// <returns>The OrderHeader ID of the new order header created</returns>
         public int CreateNewOrderHeader()
         {
-            int output = control.InsertOrderHeader();
-            return output;
+            return control.InsertOrderHeader();
         }
 
 
@@ -67,20 +66,20 @@ namespace Controller
         /// If the person tries to order more than in stock (which is checked by looking at Description), then the stock item amount does not get changed.
         /// However, the person would not be able to submit order which has bigger quantity than the amount in stock anyway. 
         /// </summary>
-        /// <param name="Description">The description of the stock item. In this case, it is either In_stock or Not_in_stock</param>
-        /// <param name="Price">The price of the stock item</param>
+        /// <param name="description">The description of the stock item. In this case, it is either In_stock or Not_in_stock</param>
+        /// <param name="price">The price of the stock item</param>
         /// <param name="orderHeaderId">The id of the order header</param>
         /// <param name="stockItemId">The id of the stock item</param>
         /// <param name="quantity">The quantity of the sotck item</param>
-        public void UpsertOrderItem(string Description, double Price, int orderHeaderId, int stockItemId, int quantity)
+        public void UpsertOrderItem(string description, double price, int orderHeaderId, int stockItemId, int quantity)
         {
 
-            control.UpsertOrderItem(Description, Price, orderHeaderId, stockItemId, quantity);
+            control.UpsertOrderItem(description, price, orderHeaderId, stockItemId, quantity);
 
             //because we are increasing by quantity amount, the number has to be negative
             quantity *= -1;
 
-            switch (Description)
+            switch (description)
             {
                 case "Not_in_stock":
                     //If the item is not in stock, it does not get updated 
@@ -95,22 +94,22 @@ namespace Controller
         /// <summary>
         /// Inputs the orderHeader id and gives back all the order items associated with that ID
         /// </summary>
-        /// <param name="OrderHeaderId">The OrderHeaderId where to get the List OrderItem from</param>
+        /// <param name="orderHeaderId">The OrderHeaderId where to get the List OrderItem from</param>
         /// <returns>List of OrderItems that correspond to that ID</returns>
-        public List<OrderItem> ProcessOrder(int OrderHeaderId)
+        public List<OrderItem> ProcessOrder(int orderHeaderId)
         {
-            return control.GetOrderHeader(OrderHeaderId);
+            return control.GetOrderHeader(orderHeaderId);
         }
 
         /// <summary>
         /// The order gets submitted. 
         /// The OrderHeader gets its state changed.
         /// </summary>
-        /// <param name="Id">The order header id</param>
-        /// <param name="State">The new order header state</param>
-        public void SubmitOrder(int Id, int State)
+        /// <param name="id">The order header id</param>
+        /// <param name="state">The new order header state</param>
+        public void SubmitOrder(int id, int state)
         {
-            control.UpdateOrderState(Id, State);
+            control.UpdateOrderState(id, state);
         }
 
         /// <summary>

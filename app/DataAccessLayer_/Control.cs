@@ -8,16 +8,15 @@ namespace DataAccessLayer
 {
     public class Control
     {
-        readonly public string _connectionString;
+        readonly public string connectionString;
         /// <summary>
         /// Constructor for Control class
         /// Connects to the Repository class and sets up the connection string
         /// </summary>
         public Control()
         {
-            Repository conn_string = new Repository();
-            _connectionString = conn_string._connectionString;
-
+            Repository repository = new Repository();
+            connectionString = repository.connectionString;
         }
 
         /// <summary>
@@ -26,10 +25,10 @@ namespace DataAccessLayer
         /// <returns>OrderHeader unique ID </returns>
         public int InsertOrderHeader()
         {
-            int order_headerID = -9999;
+            int orderHeaderId = -9999;
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
                 SqlCommand cmd = new SqlCommand("exec sp_InsertOrderHeader", conn);
 
@@ -37,20 +36,18 @@ namespace DataAccessLayer
                 SqlDataReader dataReader = cmd.ExecuteReader();
                 dataReader.Read();
 
-                order_headerID = Convert.ToInt32(dataReader.GetDecimal(0));
+                orderHeaderId = Convert.ToInt32(dataReader.GetDecimal(0));
 
                 //disposing
                 conn.Dispose();
                 cmd.Dispose();
 
-                //return 
-
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at InsertOrderHeader()\n" + ex);
+                Console.WriteLine("An error has occured at InsertOrderHeader()\n" + ex.Message);
             }
-            return order_headerID;
+            return orderHeaderId;
         }
 
 
@@ -63,10 +60,11 @@ namespace DataAccessLayer
         /// <returns>OrderItems that are associated with specific OrderHeader</returns>
         public List<OrderItem> GetOrderHeader(int id)
         {
-            List<OrderItem> outputlist = new List<OrderItem>();
-            SqlConnection conn = new SqlConnection(_connectionString);
+            List<OrderItem> outputList = new List<OrderItem>();
+            SqlConnection conn = new SqlConnection(connectionString);
 
-            SqlCommand cmd = new SqlCommand("exec sp_SelectOrderHeaderById " + id, conn);
+            SqlCommand cmd = new SqlCommand("exec sp_SelectOrderHeaderById @id", conn);
+            cmd.Parameters.AddWithValue("@id", id);
 
             //Execute query
             conn.Open();
@@ -81,8 +79,9 @@ namespace DataAccessLayer
                     {
                         double total = (double)(dataReader.GetDecimal(5) * dataReader.GetInt32(6));
 
-                        OrderItem output = new OrderItem(dataReader.GetString(4), dataReader.GetInt32(0), (double)dataReader.GetDecimal(5), dataReader.GetInt32(6), dataReader.GetInt32(3), total);
-                        outputlist.Add(output);
+                        OrderItem output = new OrderItem(dataReader.GetString(4), dataReader.GetInt32(0),
+                            (double)dataReader.GetDecimal(5), dataReader.GetInt32(6), dataReader.GetInt32(3), total);
+                        outputList.Add(output);
                     }
                 }
             }
@@ -90,7 +89,7 @@ namespace DataAccessLayer
             {
                 Console.WriteLine("An error has occured in the GetOrderHeader()" +
                     "\nThis error most likely occured because there are no order headers that correspond to ID passed\n" +
-                    ex);
+                    ex.Message);
             }
 
             //disposing
@@ -98,7 +97,7 @@ namespace DataAccessLayer
             cmd.Dispose();
 
             //output
-            return outputlist;
+            return outputList;
         }
 
 
@@ -109,10 +108,9 @@ namespace DataAccessLayer
         public List<OrderHeader> GetOrderHeaders()
         {
             List<OrderHeader> outputlist = new List<OrderHeader>();
-
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
                 //Execute query
                 conn.Open();
@@ -123,7 +121,8 @@ namespace DataAccessLayer
                 {
                     while (dataReader.Read())
                     {
-                        OrderHeader output = new OrderHeader(dataReader.GetDateTime(2), dataReader.GetInt32(0), dataReader.GetInt32(1));
+                        OrderHeader output = new OrderHeader(dataReader.GetDateTime(2),
+                            dataReader.GetInt32(0), dataReader.GetInt32(1));
                         outputlist.Add(output);
                     }
                 }
@@ -133,7 +132,7 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at the GetOrderHeaders\n" + ex);
+                Console.WriteLine("An error has occured at the GetOrderHeaders\n" + ex.Message);
             }
             //output
             return outputlist;
@@ -144,20 +143,25 @@ namespace DataAccessLayer
         /// <summary>
         /// Inserts a new OrderItem
         /// </summary>
-        /// <param name="Description">Description of the item. Can either be "In_stock" or "Not_in_stock"</param>
-        /// <param name="Price">The price of the item.</param>
+        /// <param name="description">Description of the item. Can either be "In_stock" or "Not_in_stock"</param>
+        /// <param name="price">The price of the item.</param>
         /// <param name="orderHeaderId">The id of the order header where the order item is to be inserted into</param>
         /// <param name="stockItemId">The id of the stock item to be inserted</param>
         /// <param name="quantity">The quantity of the order item</param>
-        public void UpsertOrderItem(string Description, double Price, int orderHeaderId, int stockItemId, int quantity)
+        public void UpsertOrderItem(string description, double price,
+            int orderHeaderId, int stockItemId, int quantity)
         {
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
                 SqlCommand cmd = new SqlCommand
-                    ("exec sp_UpsertOrderItem " + orderHeaderId + ", " + stockItemId + ", " +
-                    Description + ", " + Price + ", " + quantity, conn);
+                    ("exec sp_UpsertOrderItem @orderHeaderId, @stockItemId, @description, @price, @quantity", conn);
+                cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
+                cmd.Parameters.AddWithValue("@stockItemId", stockItemId);
+                cmd.Parameters.AddWithValue("@description", description);
+                cmd.Parameters.AddWithValue("@price", price);
+                cmd.Parameters.AddWithValue("@quantity", quantity);
 
                 //Execute query
                 conn.Open();
@@ -169,7 +173,7 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex);
+                Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex.Message);
             }
 
         }
@@ -178,18 +182,19 @@ namespace DataAccessLayer
         /// <summary>
         /// Updates the order state of the current order
         /// </summary>
-        /// <param name="Id">Id of the Order Header</param>
-        /// <param name="State">State that needs to be updated to</param>
-        public void UpdateOrderState(int Id, int State)
+        /// <param name="orderHeaderId">Id of the Order Header</param>
+        /// <param name="orderHeaderState">State that needs to be updated to</param>
+        public void UpdateOrderState(int orderHeaderId, int orderHeaderState)
         {
-
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
-                SqlCommand cmd = new SqlCommand("exec sp_UpdateOrderState " + Id + ", " + State, conn);
+                SqlCommand cmd = new SqlCommand
+                    ("exec sp_UpdateOrderState @orderHeaderId, @stateId", conn);
+                cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
+                cmd.Parameters.AddWithValue("@stateId", orderHeaderState);
 
-                //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 //disposing
@@ -211,9 +216,10 @@ namespace DataAccessLayer
         {
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
-                SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderHeaderAndOrderItems " + orderHeaderId, conn);
+                SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderHeaderAndOrderItems @orderHeaderId", conn);
+                cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
 
                 //Execute query
                 conn.Open();
@@ -224,23 +230,24 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex);
+                Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex.Message);
             }
         }
 
         /// <summary>
         /// Deletes the ordered(stock) item
         /// </summary>
-        /// <param name="OrderHeaderId">Order Header ID where the item is located</param>
-        /// <param name="StockItemId">The ID of the stock item that needs to be deleted</param>
-        public void DeleteOrderItem(int OrderHeaderId, int StockItemId)
+        /// <param name="orderHeaderId">Order Header ID where the item is located</param>
+        /// <param name="stockItemId">The ID of the stock item that needs to be deleted</param>
+        public void DeleteOrderItem(int orderHeaderId, int stockItemId)
         {
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
-                SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderItem " + OrderHeaderId + " , " + StockItemId, conn);
-
+                SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderItem @orderHeaderId, @stockItemId", conn);
+                cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
+                cmd.Parameters.AddWithValue("@stockItemId", stockItemId);
                 //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
@@ -250,7 +257,7 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex);
+                Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex.Message);
             }
         }
 
@@ -262,12 +269,10 @@ namespace DataAccessLayer
         /// <returns>A list of all the stock items</returns>
         public IEnumerable<StockItem> GetStockItems()
         {
-            var output = new List<StockItem>();
-
+            List<StockItem> output = new List<StockItem>();
             try
             {
-
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
                 SqlCommand cmd = new SqlCommand("exec sp_SelectStockItems ", conn);
                 conn.Open();
@@ -294,7 +299,7 @@ namespace DataAccessLayer
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex);
+                Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex.Message);
             }
             return output;
         }
@@ -304,15 +309,17 @@ namespace DataAccessLayer
         /// This is useful when the person orders something, to reflect that this item is no longer available.
         /// Try catch is used in case the quantity amount cannot be changed
         /// </summary>
-        /// <param name="stockItemID">The ID of the stock item</param>
+        /// <param name="stockItemId">The ID of the stock item</param>
         /// <param name="quantity">The quantity to be updated by</param>
-        public void UpdateStockItemAmount(int stockItemID, int quantity)
+        public void UpdateStockItemAmount(int stockItemId, int quantity)
         {
             try
             {
-                SqlConnection conn = new SqlConnection(_connectionString);
+                SqlConnection conn = new SqlConnection(connectionString);
 
-                SqlCommand cmd = new SqlCommand("exec sp_UpdateStockItemAmount " + stockItemID + ", " + quantity, conn);
+                SqlCommand cmd = new SqlCommand("exec sp_UpdateStockItemAmount @id, @amount", conn);
+                cmd.Parameters.AddWithValue("@id", stockItemId);
+                cmd.Parameters.AddWithValue("@amount", quantity);
                 //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
@@ -324,7 +331,7 @@ namespace DataAccessLayer
             {
                 Console.WriteLine("An error has occured in the UpdateStockItemAmount()" +
                     "\nThis error most likely occured because the quantity of stock item cannot be updated successfully\n" +
-                    ex);
+                    ex.Message);
 
             };
         }

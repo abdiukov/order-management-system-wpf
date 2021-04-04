@@ -38,14 +38,14 @@ namespace Model
         /// <summary>
         /// Constructor for the OrderHeader class
         /// </summary>
-        /// <param name="DateTime">The Date and Time when the OrderHeader was created</param>
-        /// <param name="Id"></param>
-        /// <param name="State">The state of the OrderHeader. Can either be 1,2,3,4</param>
-        public OrderHeader(DateTime DateTime, int Id, int State)
+        /// <param name="dateTime">The Date and Time when the OrderHeader was created</param>
+        /// <param name="id"></param>
+        /// <param name="state">The state of the OrderHeader. Can either be 1,2,3,4</param>
+        public OrderHeader(DateTime dateTime, int id, int state)
         {
-            this.DateTime = DateTime;
-            this.Id = Id;
-            this.State = State;
+            this.DateTime = dateTime;
+            this.Id = id;
+            this.State = state;
         }
     }
 }

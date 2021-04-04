@@ -12,10 +12,10 @@ namespace View
     /// </summary>
     public partial class AddOrderView : Window
     {
-        private LogicLayer layer;
+        private readonly LogicLayer layer;
         private OrderHeader currentOrderHeader;
-        private List<OrderItem> current_orders;
-        private readonly int OrderHeaderID;
+        private List<OrderItem> currentOrders;
+        private readonly int orderHeaderId;
 
 
 
@@ -24,18 +24,17 @@ namespace View
         /// Assigns the orderheaderID
         /// Afterwards calls the function to update all the information on the page
         /// </summary>
-        /// <param name="OrderHeaderID">The ID of the orderheaderID</param>
-        public AddOrderView(int OrderHeaderID)
+        /// <param name="OrderHeaderId">The ID of the orderheaderID</param>
+        public AddOrderView(int OrderHeaderId)
         {
             InitializeComponent();
-            this.OrderHeaderID = OrderHeaderID;
+            this.orderHeaderId = OrderHeaderId;
+            layer = new LogicLayer();
             UpdateInfo();
         }
 
 
         /// <summary>
-        /// UPDATES EVERYTHING!!!
-        /// The most important function. here is what it does:
         /// 1. Assigns the orderheader object to the order header id
         /// 2. If an orderheader(from 1. ) is not found, then a new one is created
         /// 3. Hides "Add" button and "Submit" button if order state is "Complete".
@@ -45,56 +44,57 @@ namespace View
         /// </summary>
         public void UpdateInfo()
         {
-            layer = new LogicLayer();
-            bool exit_loop = false;
+            bool exitLoop = false;
             List<OrderHeader> allOrders = layer.GetOrderHeaders();
+            DateTime orderTime;
+            int orderHeaderState;
 
             //1. Assigns the orderheader object to the order header id
-            for (int i = 0; i < allOrders.Count && exit_loop == false; i++)
+            for (int i = 0; i < allOrders.Count; i++)
             {
-                if (allOrders.ElementAt(i).Id == OrderHeaderID)
+                if (allOrders.ElementAt(i).Id == orderHeaderId)
                 {
-                    DateTime time_of_order = allOrders.ElementAt(i).DateTime;
-                    int orderHeaderState = allOrders.ElementAt(i).State;
-                    currentOrderHeader = new OrderHeader(time_of_order, OrderHeaderID, orderHeaderState);
-                    exit_loop = true;
+                    orderTime = allOrders.ElementAt(i).DateTime;
+                    orderHeaderState = allOrders.ElementAt(i).State;
+                    currentOrderHeader = new OrderHeader(orderTime, orderHeaderId, orderHeaderState);
+                    exitLoop = true;
                 }
             }
             // 2. If an orderheader(from 1. ) is not found, then a new one is created
 
-            switch (exit_loop)
+            switch (exitLoop)
             {
                 case false:
-                    DateTime time_of_order = DateTime.Now;
-                    int orderHeaderState = (int)Enum.Parse(typeof(OrderStates), "New");
-                    currentOrderHeader = new OrderHeader(time_of_order, OrderHeaderID, orderHeaderState);
+                    orderTime = DateTime.Now;
+                    orderHeaderState = (int)Enum.Parse(typeof(OrderStates), "New");
+                    currentOrderHeader = new OrderHeader(orderTime, orderHeaderId, orderHeaderState);
                     break;
             }
 
             // 3. Hides "Add" button and "Submit" button if order state is "Complete".
-            if (currentOrderHeader.State == (int)Enum.Parse(typeof(OrderStates), "Complete")) ;
+            if (currentOrderHeader.State == (int)Enum.Parse(typeof(OrderStates), "Complete"))
             {
                 Btn_Add_Order.Visibility = Visibility.Hidden;
                 Btn_Submit.Visibility = Visibility.Hidden;
             }
 
             // 4. Displays the order items inside the datagrid
-            current_orders = layer.ProcessOrder(currentOrderHeader.Id);
-            dgOrderItem.ItemsSource = current_orders;
+            currentOrders = layer.ProcessOrder(currentOrderHeader.Id);
+            dgOrderItem.ItemsSource = currentOrders;
 
             // 5. Adds each order item price and calculates the total
             double total = 0;
-            for (int i = 0; i < current_orders.Count; i++)
+            for (int i = 0; i < currentOrders.Count; i++)
             {
-                total += current_orders.ElementAt(i).Total;
+                total += currentOrders.ElementAt(i).Total;
             }
 
             // 6. Displays all the information inside textboxes.
-            textbox_order.Text = "Order : #" + OrderHeaderID;
-            OrderStates current_state = (OrderStates)currentOrderHeader.State;
+            textbox_order.Text = "Order : #" + orderHeaderId;
+            OrderStates currentState = (OrderStates)currentOrderHeader.State;
 
             textbox_datetime.Text = "Order Time : " + currentOrderHeader.DateTime;
-            textbox_state.Text = "State : " + current_state;
+            textbox_state.Text = "State : " + currentState;
             textbox_total.Text = "Total : " + String.Format("{0:c}", total);
         }
 
@@ -126,8 +126,8 @@ namespace View
         /// <param name="e"></param>
         private void Btn_Add_Order_Click(object sender, RoutedEventArgs e)
         {
-            AddOrderItemView add_order = new AddOrderItemView(currentOrderHeader.Id);
-            add_order.Show();
+            AddOrderItemView pageobj = new AddOrderItemView(currentOrderHeader.Id);
+            pageobj.Show();
             Close();
         }
 
@@ -141,11 +141,12 @@ namespace View
         {
             if (currentOrderHeader.State != (int)Enum.Parse(typeof(OrderStates), "Complete"))
             {
-                int item_toBeDeleted_ID = current_orders.ElementAt(dgOrderItem.SelectedIndex).StockItemId;
-                int item_toBeDeleted_Quantity = current_orders.ElementAt(dgOrderItem.SelectedIndex).Quantity;
-                string item_toBeDeleted_Description = current_orders.ElementAt(dgOrderItem.SelectedIndex).Description;
+                int itemToBeDeletedId = currentOrders.ElementAt(dgOrderItem.SelectedIndex).StockItemId;
+                int itemToBeDeletedQuantity = currentOrders.ElementAt(dgOrderItem.SelectedIndex).Quantity;
+                string itemToBeDeletedDescription = currentOrders.ElementAt(dgOrderItem.SelectedIndex).Description;
 
-                layer.DeleteOrderItem(currentOrderHeader.Id, item_toBeDeleted_ID, item_toBeDeleted_Quantity, item_toBeDeleted_Description);
+                layer.DeleteOrderItem(currentOrderHeader.Id, itemToBeDeletedId,
+                    itemToBeDeletedQuantity, itemToBeDeletedDescription);
                 UpdateInfo();
             }
         }
@@ -159,24 +160,22 @@ namespace View
         /// <param name="e"></param>
         private void Btn_Submit_Click(object sender, RoutedEventArgs e)
         {
-
             OrderStates comparison = (OrderStates)currentOrderHeader.State;
 
-
             //check whether there is a single item that is not in stock
-            bool allItems_inStock = true;
-            for (int i = 0; i < current_orders.Count; i++)
+            bool allItemsAreInStock = true;
+            for (int i = 0; i < currentOrders.Count; i++)
             {
-                switch (current_orders[i].Description)
+                switch (currentOrders[i].Description)
                 {
                     case "Not_in_stock":
-                        allItems_inStock = false;
+                        allItemsAreInStock = false;
                         break;
                 }
             }
 
             //if there is a single item that is not in stock OR there is less than 1 item, then the order gets automatically rejected
-            if ((allItems_inStock == false || current_orders.Count < 1) && comparison.ToString() != "New")
+            if ((allItemsAreInStock == false || currentOrders.Count < 1) && comparison.ToString() != "New")
             {
                 currentOrderHeader.State = (int)Enum.Parse(typeof(OrderStates), "Rejected");
             }

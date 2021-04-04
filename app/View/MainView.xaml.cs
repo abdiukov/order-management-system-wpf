@@ -12,7 +12,7 @@ namespace View
     public partial class MainView : Window
     {
         private readonly LogicLayer layer;
-        private readonly List<OrderHeader> AllOrderHeaders;
+        private readonly List<OrderHeader> allOrderHeaders;
         /// <summary>
         /// Constructor.
         /// Connects to the Controller Layer
@@ -21,10 +21,9 @@ namespace View
         public MainView()
         {
             InitializeComponent();
-            LogicLayer layer = new LogicLayer();
-            this.layer = layer;
-            AllOrderHeaders = layer.GetOrderHeaders();
-            dgMainMenu.ItemsSource = AllOrderHeaders;
+            this.layer = new LogicLayer();
+            allOrderHeaders = layer.GetOrderHeaders();
+            dgMainMenu.ItemsSource = allOrderHeaders;
         }
 
         /// <summary>
@@ -37,8 +36,8 @@ namespace View
         /// <param name="e"></param>
         private void Btn_AddPage_Click(object sender, RoutedEventArgs e)
         {
-            int orderHeaderID = layer.CreateNewOrderHeader();
-            AddOrderView pageobj = new AddOrderView(orderHeaderID);
+            int orderHeaderId = layer.CreateNewOrderHeader();
+            AddOrderView pageobj = new AddOrderView(orderHeaderId);
             pageobj.Show();
             Close();
         }
@@ -51,8 +50,8 @@ namespace View
         /// <param name="e"></param>
         private void BtnSelect_Click(object sender, RoutedEventArgs e)
         {
-            int dataGrid_selectedHeaderID = AllOrderHeaders.ElementAt(dgMainMenu.SelectedIndex).Id;
-            AddOrderView pageobj = new AddOrderView(dataGrid_selectedHeaderID);
+            int dgSelectedHeaderId = allOrderHeaders.ElementAt(dgMainMenu.SelectedIndex).Id;
+            AddOrderView pageobj = new AddOrderView(dgSelectedHeaderId);
             pageobj.Show();
             Close();
         }

@@ -11,16 +11,16 @@ namespace View
     public partial class AddOrderItemView : Window
     {
         private readonly LogicLayer layer = new LogicLayer();
-        private readonly int orderHeaderID;
+        private readonly int orderHeaderId;
 
         /// <summary>
         /// Constructor for AddOrderItem
         /// </summary>
-        /// <param name="orderHeaderID">The unique ID of the order header</param>
-        public AddOrderItemView(int orderHeaderID)
+        /// <param name="orderHeaderId">The unique ID of the order header</param>
+        public AddOrderItemView(int orderHeaderId)
         {
             InitializeComponent();
-            this.orderHeaderID = orderHeaderID;
+            this.orderHeaderId = orderHeaderId;
             dgStockItems.ItemsSource = layer.GetStockItems();
         }
 
@@ -30,7 +30,7 @@ namespace View
         /// </summary>
         private void NavigateBack()
         {
-            AddOrderView newView = new AddOrderView(orderHeaderID);
+            AddOrderView newView = new AddOrderView(orderHeaderId);
             newView.Show();
             Close();
         }
@@ -58,7 +58,8 @@ namespace View
             //if the user leaves the textbox empty, it should be 1, if user does not enter a number, it will be 1.
             int quantity = 1;
 
-            switch (int.TryParse(txtBox_quantity.Text, out int quantity_successfully_converted_into_int) && quantity_successfully_converted_into_int > 0)
+            switch (int.TryParse(txtBox_quantity.Text, out int quantity_successfully_converted_into_int)
+                && quantity_successfully_converted_into_int > 0)
             {
                 case true:
                     quantity = quantity_successfully_converted_into_int;
@@ -84,12 +85,17 @@ namespace View
 
             if (quantity > inStock)
             {
-                userConfirmedToSave = MessageBox.Show("There are currently not enough items in stock.\nRequested: " + quantity + " , In stock: " + inStock + "\nThis order might be rejected if there is not enough stock on hand when the order is being processed.\nDo you wish to proceed?", "Info", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                userConfirmedToSave = MessageBox.Show("There are currently not enough items in stock." +
+                    "\nRequested: " + quantity + " , In stock: " + inStock +
+                    "\nThis order might be rejected if there is not enough stock on hand when the order is being processed." +
+                    "\nDo you wish to proceed?", "Info", MessageBoxButton.YesNo, MessageBoxImage.Warning);
                 description = "Not_in_stock";
             }
             else
             {
-                userConfirmedToSave = MessageBox.Show("You are about to add " + quantity + " items to your order. Do you wish to proceed?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                userConfirmedToSave = MessageBox.Show("You are about to add " + quantity +
+                    " items to your order. Do you wish to proceed?", "Confirmation",
+                    MessageBoxButton.YesNo, MessageBoxImage.Warning);
                 description = "In_stock";
             }
 
@@ -97,7 +103,8 @@ namespace View
             {
                 case MessageBoxResult.Yes:
 
-                    layer.UpsertOrderItem(description, selected_item.Price, orderHeaderID, selected_item.Id, quantity);
+                    layer.UpsertOrderItem(description, selected_item.Price,
+                        orderHeaderId, selected_item.Id, quantity);
                     NavigateBack();
                     break;
             }

@@ -60,20 +60,21 @@
         /// <summary>
         /// Constructor for the order item class
         /// </summary>
-        /// <param name="Description">Description of the Order Item. Can be "Not_in_stock" or "In_stock" </param>
-        /// <param name="OrderHeaderId">The unique ID of the order header</param>
-        /// <param name="Price">The Price of the order item</param>
-        /// <param name="Quantity">The quantity of the order item</param>
-        /// <param name="StockItemId">The id of the stock itme</param>
-        /// <param name="Total">The total calculated by = quantity * price</param>
-        public OrderItem(string Description, int OrderHeaderId, double Price, int Quantity, int StockItemId, double Total)
+        /// <param name="description">Description of the Order Item. Can be "Not_in_stock" or "In_stock" </param>
+        /// <param name="orderHeaderId">The unique ID of the order header</param>
+        /// <param name="price">The Price of the order item</param>
+        /// <param name="quantity">The quantity of the order item</param>
+        /// <param name="stockItemId">The id of the stock itme</param>
+        /// <param name="total">The total calculated by = quantity * price</param>
+        public OrderItem(string description, int orderHeaderId, double price,
+            int quantity, int stockItemId, double total)
         {
-            this.Description = Description;
-            this.Quantity = Quantity;
-            this.OrderHeaderId = OrderHeaderId;
-            this.Price = Price;
-            this.StockItemId = StockItemId;
-            this.Total = Total;
+            this.Description = description;
+            this.Quantity = quantity;
+            this.OrderHeaderId = orderHeaderId;
+            this.Price = price;
+            this.StockItemId = stockItemId;
+            this.Total = total;
         }
 
     }
