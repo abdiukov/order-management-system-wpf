@@ -1,18 +1,18 @@
 
-app/View/bin/Debug/
-app/View/obj/Debug/
+app/View/bin/Debug
+app/View/obj/Debug
 
-app/AutomatedTesting/bin/Debug/
-app/AutomatedTesting/obj/Debug/
+app/AutomatedTesting/bin/Debug
+app/AutomatedTesting/obj/Debug
 
-app/Model/bin/Debug/
-app/Model/obj/Debug/
+app/Model/bin/Debug
+app/Model/obj/Debug
 
-app/DataAccessLayer_/bin/Debug/
-app/DataAccessLayer_/obj/Debug/
+app/DataAccessLayer_/bin/Debug
+app/DataAccessLayer_/obj/Debug
 
-app/ApplicationLogicLayer/bin/Debug/
-app/ApplicationLogicLayer/obj/Debug/
+app/ApplicationLogicLayer/bin/Debug
+app/ApplicationLogicLayer/obj/Debug
 
-app/WPF/obj/Debug/
-app/WPF/bin/Debug/
+app/WPF/obj/Debug
+app/WPF/bin/Debug
