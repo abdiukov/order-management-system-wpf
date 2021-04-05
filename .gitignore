@@ -13,3 +13,6 @@ app/DataAccessLayer_/obj/Debug/
 
 app/ApplicationLogicLayer/bin/Debug/
 app/ApplicationLogicLayer/obj/Debug/
+
+app/WPF/obj/Debug/
+app/WPF/bin/Debug/
