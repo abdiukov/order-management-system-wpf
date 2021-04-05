@@ -139,3 +139,12 @@ C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\Sy
 C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\System.Xml.XPath.dll
 C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\View.exe
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\ApplicationLogicLayer.dll
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\Model.dll
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\Controller.dll
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\View.pdb
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\View.exe.config
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\ApplicationLogicLayer.pdb
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\Model.pdb
+C:\Users\Ash\Desktop\skills\csharp-wpf-order-management-app\app\WPF\bin\Debug\Controller.pdb

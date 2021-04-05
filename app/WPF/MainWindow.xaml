@@ -10,6 +10,10 @@
         <Button x:Name="loginButton" Content="Login" VerticalAlignment="Top" Margin="0,65,8,0" Click="LoginButton_OnClick" HorizontalAlignment="Right" Width="75"/>
         <Button x:Name="logoutButton" Content="Logout" VerticalAlignment="Top" Margin="0,65,8,0" Click="LogoutButton_Click" HorizontalAlignment="Right" Width="75" Visibility="Collapsed"/>
         <TextBox x:Name="resultTextBox" TextWrapping="Wrap" Text="" Margin="10,110,8,10" FontFamily="Courier New"/>
+        <Label x:Name="label" Content="Connection:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Audience:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.873,2.178" Margin="10,33,0,0"/>
+        <TextBox x:Name="audienceTextBox" TextWrapping="Wrap" Margin="88,37,8,0" VerticalAlignment="Top" Height="22"/>
+        <ComboBox x:Name="connectionNameComboBox" VerticalAlignment="Top" Margin="88,10,8,0" IsEditable="True"/>
         <Label x:Name="label1_Copy" Content="Result:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.873,2.178" Margin="10,84,0,0"/>
 
     </Grid>

@@ -10,7 +10,7 @@
         "projectName": "Controller",
         "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj",
         "frameworks": {
-          "net472": {
+          "net462": {
             "projectReferences": {
               "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj"
@@ -23,7 +23,7 @@
         }
       },
       "frameworks": {
-        "net472": {}
+        "net462": {}
       }
     },
     "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj": {
@@ -32,7 +32,7 @@
         "projectName": "DataAccess",
         "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj",
         "frameworks": {
-          "net472": {
+          "net462": {
             "projectReferences": {
               "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
                 "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
@@ -42,7 +42,7 @@
         }
       },
       "frameworks": {
-        "net472": {}
+        "net462": {}
       }
     },
     "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
@@ -52,7 +52,7 @@
         "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
       },
       "frameworks": {
-        "net472": {}
+        "net462": {}
       }
     },
     "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj": {
@@ -61,7 +61,7 @@
         "projectName": "View",
         "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj",
         "frameworks": {
-          "net472": {
+          "net462": {
             "projectReferences": {
               "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj": {
                 "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj"
@@ -74,7 +74,7 @@
         }
       },
       "frameworks": {
-        "net472": {}
+        "net462": {}
       }
     },
     "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\WPFSample.csproj": {

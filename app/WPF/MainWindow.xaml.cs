@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 using System.Windows;
+using View;
 
 namespace WPFSample
 {
@@ -14,6 +15,15 @@ namespace WPFSample
     public partial class MainWindow : Window
     {
         private Auth0Client client;
+        readonly string[] _connectionNames = new string[]
+        {
+            "Username-Password-Authentication",
+            "google-oauth2",
+            "twitter",
+            "facebook",
+            "github",
+            "windowslive"
+        };
 
         public MainWindow()
         {
@@ -31,10 +41,13 @@ namespace WPFSample
                 ClientId = clientId
             });
 
-            var extraParameters = new Dictionary<string, string>
-            {
-                { "connection", "Username-Password-Authentication" }
-            };
+            var extraParameters = new Dictionary<string, string>();
+
+            if (!string.IsNullOrEmpty(connectionNameComboBox.Text))
+                extraParameters.Add("connection", connectionNameComboBox.Text);
+
+            if (!string.IsNullOrEmpty(audienceTextBox.Text))
+                extraParameters.Add("audience", audienceTextBox.Text);
 
             DisplayResult(await client.LoginAsync(extraParameters: extraParameters));
         }
@@ -47,6 +60,9 @@ namespace WPFSample
                 resultTextBox.Text = loginResult.Error;
                 return;
             }
+
+            MainView view = new MainView();
+            view.Show();
 
             logoutButton.Visibility = Visibility.Visible;
             loginButton.Visibility = Visibility.Collapsed;
@@ -73,7 +89,7 @@ namespace WPFSample
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //connectionNameComboBox.ItemsSource = _connectionNames;
+            connectionNameComboBox.ItemsSource = _connectionNames;
         }
 
         private async void LogoutButton_Click(object sender, RoutedEventArgs e)
@@ -86,13 +102,13 @@ namespace WPFSample
                 return;
             }
 
-            //View.App.Main();
 
             logoutButton.Visibility = Visibility.Collapsed;
             loginButton.Visibility = Visibility.Visible;
 
+            audienceTextBox.Text = "";
             resultTextBox.Text = "";
-            //connectionNameComboBox.ItemsSource = _connectionNames;
+            connectionNameComboBox.ItemsSource = _connectionNames;
         }
     }
 }
