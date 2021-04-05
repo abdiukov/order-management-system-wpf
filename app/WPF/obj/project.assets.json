@@ -2879,9 +2879,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\WPFSample.csproj",
-      "projectName": "WPFSample",
-      "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\WPFSample.csproj",
+      "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj",
+      "projectName": "LoginAuth",
+      "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj",
       "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\obj\\",
       "projectStyle": "PackageReference",

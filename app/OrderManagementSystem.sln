@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTesting", "AutomatedTesting\AutomatedTesting.csproj", "{8ACEE487-5609-4BEB-912D-F28432198B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSample", "WPF\WPFSample.csproj", "{B525C5CE-4934-4018-9CB2-20D3861DB9E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAuth", "WPF\LoginAuth.csproj", "{B525C5CE-4934-4018-9CB2-20D3861DB9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

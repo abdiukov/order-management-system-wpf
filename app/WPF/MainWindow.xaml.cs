@@ -5,23 +5,22 @@ using System.Configuration;
 using System.Windows;
 using View;
 
-namespace WPFSample
+namespace LoginAuth
 {
     public partial class MainWindow : Window
     {
-        private Auth0Client client;
-
         public MainWindow()
         {
             InitializeComponent();
+            Login();
         }
 
-        private async void LoginButton_OnClick(object sender, RoutedEventArgs e)
+        private async void Login()
         {
             string domain = ConfigurationManager.AppSettings["Auth0:Domain"];
             string clientId = ConfigurationManager.AppSettings["Auth0:ClientId"];
 
-            client = new Auth0Client(new Auth0ClientOptions
+            Auth0Client client = new Auth0Client(new Auth0ClientOptions
             {
                 Domain = domain,
                 ClientId = clientId
@@ -31,23 +30,19 @@ namespace WPFSample
             {
                 { "connection", "Username-Password-Authentication" }
             };
-
-            DisplayResult(await client.LoginAsync(extraParameters: extraParameters));
-        }
-
-        private void DisplayResult(LoginResult loginResult)
-        {
-            // Display error
-            if (loginResult.IsError)
-            {
-                return;
-            }
-            MainView view = new MainView();
-            view.Show();
+            ProcessOutputFromLogin(await client.LoginAsync(extraParameters: extraParameters));
             this.Close();
         }
 
-
+        private void ProcessOutputFromLogin(LoginResult loginResult)
+        {
+            //If it's not an error, start the application
+            if (!loginResult.IsError)
+            {
+                MainView pageobj = new MainView();
+                pageobj.Show();
+            }
+        }
 
     }
 }

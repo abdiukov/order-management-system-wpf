@@ -24,6 +24,7 @@ namespace View
             this.layer = new LogicLayer();
             allOrderHeaders = layer.GetOrderHeaders();
             dgMainMenu.ItemsSource = allOrderHeaders;
+            this.Topmost = true;
         }
 
         /// <summary>
