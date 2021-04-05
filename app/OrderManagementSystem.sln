@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTesting", "AutomatedTesting\AutomatedTesting.csproj", "{8ACEE487-5609-4BEB-912D-F28432198B7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSample", "WPF\WPFSample.csproj", "{B525C5CE-4934-4018-9CB2-20D3861DB9E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8ACEE487-5609-4BEB-912D-F28432198B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ACEE487-5609-4BEB-912D-F28432198B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ACEE487-5609-4BEB-912D-F28432198B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B525C5CE-4934-4018-9CB2-20D3861DB9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B525C5CE-4934-4018-9CB2-20D3861DB9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B525C5CE-4934-4018-9CB2-20D3861DB9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B525C5CE-4934-4018-9CB2-20D3861DB9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
