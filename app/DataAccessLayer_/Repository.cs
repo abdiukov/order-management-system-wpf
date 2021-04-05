@@ -4,9 +4,7 @@ namespace DataAccess
 {
     public class Repository
     {
-
         readonly public string connectionString;
-
         /// <summary>
         /// Repository class connects to the database
         /// That connection is stored in the _connectionString.
@@ -15,8 +13,6 @@ namespace DataAccess
         {
             connectionString = ConfigurationManager.ConnectionStrings["DatabaseConnection"].ConnectionString;
         }
-
-
     }
 
 }

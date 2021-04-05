@@ -29,27 +29,23 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand("exec sp_InsertOrderHeader", conn);
-
+                //Execute query
                 conn.Open();
                 SqlDataReader dataReader = cmd.ExecuteReader();
                 dataReader.Read();
-
                 orderHeaderId = Convert.ToInt32(dataReader.GetDecimal(0));
-
                 //disposing
                 conn.Dispose();
                 cmd.Dispose();
-
             }
             catch (Exception ex)
             {
                 Console.WriteLine("An error has occured at InsertOrderHeader()\n" + ex.Message);
             }
+            //output
             return orderHeaderId;
         }
-
 
         /// <summary>
         /// Gets the list of OrderItems that are associated with specific OrderHeader
@@ -62,15 +58,11 @@ namespace DataAccessLayer
         {
             List<OrderItem> outputList = new List<OrderItem>();
             SqlConnection conn = new SqlConnection(connectionString);
-
             SqlCommand cmd = new SqlCommand("exec sp_SelectOrderHeaderById @id", conn);
             cmd.Parameters.AddWithValue("@id", id);
-
             //Execute query
             conn.Open();
             SqlDataReader dataReader = cmd.ExecuteReader();
-
-
             try
             {
                 if (dataReader.HasRows)
@@ -91,15 +83,12 @@ namespace DataAccessLayer
                     "\nThis error most likely occured because there are no order headers that correspond to ID passed\n" +
                     ex.Message);
             }
-
             //disposing
             conn.Dispose();
             cmd.Dispose();
-
             //output
             return outputList;
         }
-
 
         /// <summary>
         /// Gets all the order headers
@@ -107,7 +96,7 @@ namespace DataAccessLayer
         /// <returns>List of OrderHeaders</returns>
         public List<OrderHeader> GetOrderHeaders()
         {
-            List<OrderHeader> outputlist = new List<OrderHeader>();
+            List<OrderHeader> outputList = new List<OrderHeader>();
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
@@ -123,7 +112,7 @@ namespace DataAccessLayer
                     {
                         OrderHeader output = new OrderHeader(dataReader.GetDateTime(2),
                             dataReader.GetInt32(0), dataReader.GetInt32(1));
-                        outputlist.Add(output);
+                        outputList.Add(output);
                     }
                 }
                 //disposing
@@ -135,10 +124,8 @@ namespace DataAccessLayer
                 Console.WriteLine("An error has occured at the GetOrderHeaders\n" + ex.Message);
             }
             //output
-            return outputlist;
+            return outputList;
         }
-
-
 
         /// <summary>
         /// Inserts a new OrderItem
@@ -154,7 +141,6 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand
                     ("exec sp_UpsertOrderItem @orderHeaderId, @stockItemId, @description, @price, @quantity", conn);
                 cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
@@ -162,11 +148,9 @@ namespace DataAccessLayer
                 cmd.Parameters.AddWithValue("@description", description);
                 cmd.Parameters.AddWithValue("@price", price);
                 cmd.Parameters.AddWithValue("@quantity", quantity);
-
                 //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
-
                 //disposing
                 conn.Dispose();
                 cmd.Dispose();
@@ -175,9 +159,7 @@ namespace DataAccessLayer
             {
                 Console.WriteLine("An error has occured at the UpserOrderItem()\n" + ex.Message);
             }
-
         }
-
 
         /// <summary>
         /// Updates the order state of the current order
@@ -189,12 +171,11 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand
                     ("exec sp_UpdateOrderState @orderHeaderId, @stateId", conn);
                 cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
                 cmd.Parameters.AddWithValue("@stateId", orderHeaderState);
-
+                //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 //disposing
@@ -205,7 +186,6 @@ namespace DataAccessLayer
             {
                 Console.WriteLine("An error has occured at the UpdateOrderItem()\n" + ex);
             }
-
         }
 
         /// <summary>
@@ -217,10 +197,8 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderHeaderAndOrderItems @orderHeaderId", conn);
                 cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
-
                 //Execute query
                 conn.Open();
                 cmd.ExecuteNonQuery();
@@ -244,7 +222,6 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand("exec sp_DeleteOrderItem @orderHeaderId, @stockItemId", conn);
                 cmd.Parameters.AddWithValue("@orderHeaderId", orderHeaderId);
                 cmd.Parameters.AddWithValue("@stockItemId", stockItemId);
@@ -273,10 +250,9 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand("exec sp_SelectStockItems ", conn);
+                //Execute query
                 conn.Open();
-
                 SqlDataReader dataReader = cmd.ExecuteReader();
                 if (dataReader.HasRows)
                 {
@@ -293,7 +269,7 @@ namespace DataAccessLayer
                         output.Add(stockItem);
                     }
                 }
-
+                //disposing
                 conn.Dispose();
                 cmd.Dispose();
             }
@@ -301,6 +277,7 @@ namespace DataAccessLayer
             {
                 Console.WriteLine("An error has occured at the DeleteOrderItem()\n" + ex.Message);
             }
+            //output
             return output;
         }
 
@@ -316,7 +293,6 @@ namespace DataAccessLayer
             try
             {
                 SqlConnection conn = new SqlConnection(connectionString);
-
                 SqlCommand cmd = new SqlCommand("exec sp_UpdateStockItemAmount @id, @amount", conn);
                 cmd.Parameters.AddWithValue("@id", stockItemId);
                 cmd.Parameters.AddWithValue("@amount", quantity);
@@ -332,11 +308,7 @@ namespace DataAccessLayer
                 Console.WriteLine("An error has occured in the UpdateStockItemAmount()" +
                     "\nThis error most likely occured because the quantity of stock item cannot be updated successfully\n" +
                     ex.Message);
-
             };
         }
-
-
     }
-
 }

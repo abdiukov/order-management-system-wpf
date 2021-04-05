@@ -17,8 +17,6 @@ namespace View
         private List<OrderItem> currentOrders;
         private readonly int orderHeaderId;
 
-
-
         /// <summary>
         /// Constructor for the class
         /// Assigns the orderheaderID
@@ -32,7 +30,6 @@ namespace View
             layer = new LogicLayer();
             UpdateInfo();
         }
-
 
         /// <summary>
         /// 1. Assigns the orderheader object to the order header id
@@ -196,7 +193,6 @@ namespace View
             layer.SubmitOrder(currentOrderHeader.Id, currentOrderHeader.State);
             UpdateInfo();
         }
-
 
         /// <summary>
         /// Upon clicking on the "Cancel" button, the order header and all the order items get erased from the database

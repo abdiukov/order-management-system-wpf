@@ -16,7 +16,6 @@ namespace Controller
             this.control = new Control();
         }
 
-
         /// <summary>
         /// Retrieves the order headers and sorts them
         /// Sorting is done to make sure that each order header is unique, because some of the orderHeaders might get repeated otherwise.
@@ -58,7 +57,6 @@ namespace Controller
             return control.InsertOrderHeader();
         }
 
-
         /// <summary>
         /// Inserts a new order state into the database
         /// Updates the stock item amount. 
@@ -89,7 +87,6 @@ namespace Controller
                     break;
             }
         }
-
 
         /// <summary>
         /// Inputs the orderHeader id and gives back all the order items associated with that ID
@@ -140,7 +137,6 @@ namespace Controller
             control.DeleteOrderHeaderAndOrderItems(orderHeaderId);
         }
 
-
         /// <summary>
         /// DELETES THE item from the order header and returns the item back to the StockItem database.
         /// Afterwards it updates the stock item amount, it returns the items taken back to the StockItem database.
@@ -152,8 +148,6 @@ namespace Controller
         /// <param name="stockItemId">The id of the stock item</param>
         /// <param name="quantity">The quantity to return</param>
         /// <param name="description">The description of the item (can be "Not_in_stock" or "In_stock")</param>
-
-
         public void DeleteOrderItem(int orderHeaderId, int stockItemId, int quantity, string description)
         {
             switch (description)

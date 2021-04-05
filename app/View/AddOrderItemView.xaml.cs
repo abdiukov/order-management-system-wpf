@@ -24,7 +24,6 @@ namespace View
             dgStockItems.ItemsSource = layer.GetStockItems();
         }
 
-
         /// <summary>
         /// NavigateBack() is a function that navigates back to the main page
         /// </summary>
@@ -70,8 +69,6 @@ namespace View
             }
 
             //selecting the item that the user has clicked on in the datagrid (dgStockItems)
-
-
             StockItem selected_item = layer.GetStockItems().ElementAt(dgStockItems.SelectedIndex);
 
             //CHECKING WHETHER ITEM IS IN STOCK

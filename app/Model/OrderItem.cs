@@ -10,53 +10,27 @@
         /// So if we add quantity of 12 to the order, when the stock quantity is 1, the Stock Item table does not become -11
         /// Vice versa happens when we remove an order that is not in stock - the Stock Item table does not get updated
         /// </summary>
-        public string Description
-        {
-            get; set;
-        }
-
-
+        public string Description { get; set; }
         /// <summary>
         /// The unique ID of the order header
         /// </summary>
-        public int OrderHeaderId
-        {
-            get; set;
-        }
-
+        public int OrderHeaderId { get; set; }
         /// <summary>
         /// The Price of the order item
         /// </summary>
-        public double Price
-        {
-            get; set;
-        }
-
+        public double Price { get; set; }
         /// <summary>
         /// The quantity of the order item
         /// </summary>
-        public int Quantity
-        {
-            get; set;
-        }
-
+        public int Quantity { get; set; }
         /// <summary>
         /// The id of the stock itme
         /// </summary>
-        public int StockItemId
-        {
-            get; set;
-        }
-
+        public int StockItemId { get; set; }
         /// <summary>
         /// The total calculated by = quantity * price
         /// </summary>
-        public double Total
-        {
-            get; set;
-        }
-
-
+        public double Total { get; set; }
         /// <summary>
         /// Constructor for the order item class
         /// </summary>
@@ -76,6 +50,5 @@
             this.StockItemId = stockItemId;
             this.Total = total;
         }
-
     }
 }

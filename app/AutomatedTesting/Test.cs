@@ -59,7 +59,6 @@ namespace AutomatedTesting
                 output.StockItemId + " " + output.Quantity + " " + output.Total);
         }
 
-
         /// <summary>
         /// Opening the order that only has one item
         /// Checking that that item with index 0 exists
@@ -72,7 +71,6 @@ namespace AutomatedTesting
             bool itemExists = false;
             layer.DeleteOrderItem(orderHeaderId, idOfStockItemTested,
                 quantityOfStockItemTested, "In_stock");
-
             try
             {
                 layer.ProcessOrder(orderHeaderId).ElementAt(0);
