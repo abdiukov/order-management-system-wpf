@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KoCs8fg5VWayIqL7nYV6+ungCBmVJhcdCo/S8x5/LvDafQiLZTwvktY6FmMPF4Zn2kdZn+N3R7yK8FtsOm5lWg==",
+  "dgSpecHash": "ybkiBZuXTwJfnTEFky4irifaPUQFTCrg/BgFCVO19D2gO4R4S8LsKCUVlWqSxQ/FgNE5waUhAJyKAKNZum/2dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj",
+  "projectFilePath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\LoginAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ash\\.nuget\\packages\\auth0.oidcclient.core\\3.1.2\\auth0.oidcclient.core.3.1.2.nupkg.sha512",
     "C:\\Users\\Ash\\.nuget\\packages\\auth0.oidcclient.wpf\\3.1.3\\auth0.oidcclient.wpf.3.1.3.nupkg.sha512",

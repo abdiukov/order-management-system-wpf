@@ -37,8 +37,7 @@ namespace View
         /// <summary>
         /// Calls the NavigateBack() function. That function closes the page and navigates back to AddOrder window.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_GoBack_Click(object sender, RoutedEventArgs e)
         {
             NavigateBack();
@@ -48,8 +47,7 @@ namespace View
         /// Upon clicking that button inside the datagrid, a confirmation message pops up.
         /// After the confirmation message, the selected item and quantity get added to the database.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void BtnSelect_Click(object sender, RoutedEventArgs e)
         {
             //by default, quantity is 1

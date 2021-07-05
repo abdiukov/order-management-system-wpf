@@ -98,8 +98,7 @@ namespace View
         /// <summary>
         /// Calls function that navigates back to main menu
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_MainPage_Click(object sender, RoutedEventArgs e)
         {
             NavigateBack();
@@ -119,8 +118,7 @@ namespace View
         /// <summary>
         /// Adds an order item to the order header
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_Add_Order_Click(object sender, RoutedEventArgs e)
         {
             AddOrderItemView pageobj = new AddOrderItemView(currentOrderHeader.Id);
@@ -132,8 +130,7 @@ namespace View
         /// Deletes the order item from the order header
         /// If the order state is "Complete" then the button would not work
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void BtnDelete_Click(object sender, RoutedEventArgs e)
         {
             if (currentOrderHeader.State != (int)Enum.Parse(typeof(OrderStates), "Complete"))
@@ -153,8 +150,7 @@ namespace View
         /// If there is a single item that is not in stock OR there is less than 1 item, then the order gets automatically rejected
         /// If all items are in stock the order becomes "Pending" and then (after clicking the button again) gets submitted
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_Submit_Click(object sender, RoutedEventArgs e)
         {
             OrderStates comparison = (OrderStates)currentOrderHeader.State;
@@ -197,8 +193,7 @@ namespace View
         /// <summary>
         /// Upon clicking on the "Cancel" button, the order header and all the order items get erased from the database
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_Cancel_Click(object sender, RoutedEventArgs e)
         {
             layer.DeleteOrderHeaderAndOrderItems(currentOrderHeader.Id);

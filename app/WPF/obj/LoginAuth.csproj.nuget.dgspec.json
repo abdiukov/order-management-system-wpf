@@ -1,22 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj": {}
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\LoginAuth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj": {
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\ApplicationLogicLayer\\Controller.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\ApplicationLogicLayer\\Controller.csproj",
         "projectName": "Controller",
-        "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj",
+        "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\ApplicationLogicLayer\\Controller.csproj",
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\DataAccessLayer_\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\DataAccessLayer_\\DataAccess.csproj"
               },
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj"
               }
             }
           }
@@ -26,16 +26,16 @@
         "net462": {}
       }
     },
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj": {
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\DataAccessLayer_\\DataAccess.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\DataAccessLayer_\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\DataAccessLayer_\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\DataAccessLayer_\\DataAccess.csproj",
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj"
               }
             }
           }
@@ -45,29 +45,29 @@
         "net462": {}
       }
     },
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
+        "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj"
       },
       "frameworks": {
         "net462": {}
       }
     },
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj": {
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\View\\View.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\View\\View.csproj",
         "projectName": "View",
-        "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj",
+        "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\View\\View.csproj",
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\ApplicationLogicLayer\\Controller.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\ApplicationLogicLayer\\Controller.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\ApplicationLogicLayer\\Controller.csproj"
               },
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\Model\\Model.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\Model\\Model.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         "net462": {}
       }
     },
-    "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj": {
+    "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\LoginAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj",
+        "projectUniqueName": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\LoginAuth.csproj",
         "projectName": "LoginAuth",
-        "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\LoginAuth.csproj",
+        "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\LoginAuth.csproj",
         "packagesPath": "C:\\Users\\Ash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\WPF\\obj\\",
+        "outputPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\WPF\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -107,8 +107,8 @@
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj": {
-                "projectPath": "C:\\Users\\Ash\\Desktop\\skills\\csharp-wpf-order-management-app\\app\\View\\View.csproj"
+              "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\View\\View.csproj": {
+                "projectPath": "C:\\Users\\Ash\\Desktop\\GitHub\\order-management-system-wpf\\app\\View\\View.csproj"
               }
             }
           }

@@ -1,33 +1,59 @@
-﻿<Window x:Class="View.AddOrderItemView"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:View"
-        mc:Ignorable="d"
-        Title="Order Management System" Height="450" Width="800"
-                WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
-        >
+﻿<Window
+    x:Class="View.AddOrderItemView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Order Management System"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
 
     <Grid>
-        <Button Name="Btn_GoBack" Content="&lt;--" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="38" Width="77" Click="Btn_GoBack_Click"/>
-        <DataGrid Name="dgStockItems" Margin="6,57,6,191" IsReadOnly="True" AutoGenerateColumns="False" FontSize="20" FontFamily="Verdana">
+        <Button
+            Name="Btn_GoBack"
+            Width="77"
+            Height="38"
+            Margin="10,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Btn_GoBack_Click"
+            Content="&lt;--" />
+        <DataGrid
+            Name="dgStockItems"
+            Margin="20,100,20,0"
+            VerticalAlignment="Stretch"
+            AutoGenerateColumns="False"
+            FontFamily="Verdana"
+            FontSize="20"
+            IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Path='Id'}"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding Path='Name'}"/>
-                <DataGridTextColumn Header="Price" Binding="{Binding Path='Price'}"/>
-                <DataGridTextColumn Header="InStock" Binding="{Binding Path='InStock'}"/>
-                <DataGridTemplateColumn Header="" >
+                <DataGridTextColumn Binding="{Binding Path='Id'}" Header="Id" />
+                <DataGridTextColumn Binding="{Binding Path='Name'}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding Path='Price'}" Header="Price" />
+                <DataGridTextColumn Binding="{Binding Path='InStock'}" Header="InStock" />
+                <DataGridTemplateColumn Header="">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Name="BtnSelect" Content="Add" Click="BtnSelect_Click" />
+                            <Button
+                                Name="BtnSelect"
+                                Click="BtnSelect_Click"
+                                Content="Add" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <TextBox x:Name="txtBox_quantity" HorizontalAlignment="Left" Margin="322,298,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Please enter Quantity" HorizontalAlignment="Left" Margin="320,267,0,0" VerticalAlignment="Top"/>
 
+        <StackPanel
+            Margin="0,50,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top">
+            <Label Content="Please enter Quantity" />
+            <TextBox
+                x:Name="txtBox_quantity"
+                Width="120"
+                Text=""
+                TextWrapping="Wrap" />
+        </StackPanel>
     </Grid>
 </Window>

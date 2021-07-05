@@ -33,8 +33,7 @@ namespace View
         /// Passes that id to the new AddOrderView page
         /// Closes the current page
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void Btn_AddPage_Click(object sender, RoutedEventArgs e)
         {
             int orderHeaderId = layer.CreateNewOrderHeader();
@@ -47,8 +46,7 @@ namespace View
         /// Passes that id to the new AddOrderView page
         /// Closes the current page
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void BtnSelect_Click(object sender, RoutedEventArgs e)
         {
             int dgSelectedHeaderId = allOrderHeaders.ElementAt(dgMainMenu.SelectedIndex).Id;
