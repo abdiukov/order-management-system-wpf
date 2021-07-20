@@ -23,6 +23,7 @@
                 Grid.Column="1"
                 Width="105"
                 Height="52"
+                Margin="20,0,0,0"
                 Click="Btn_Add_Order_Click"
                 Content="Add order item" />
             <Button
@@ -30,6 +31,7 @@
                 Grid.Column="1"
                 Width="105"
                 Height="52"
+                Margin="20,0,0,0"
                 Click="Btn_Submit_Click"
                 Content="Submit" />
             <Button
@@ -37,6 +39,7 @@
                 Grid.Column="1"
                 Width="105"
                 Height="52"
+                Margin="20,0,0,0"
                 Click="Btn_Cancel_Click"
                 Content="Cancel" />
         </StackPanel>

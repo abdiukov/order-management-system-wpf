@@ -6,6 +6,6 @@
 
 3. (Optional) Test the connection by running the "AutomatedTesting" project.
 
-4. Run the "UI" project.
+4. Run the "LoginAuth" project.
 
 5. Log in. Email - "user@user.com" , Password - "password" 
