@@ -59,7 +59,6 @@
         <TextBox
             x:Name="textbox_order"
             Grid.ColumnSpan="2"
-            Width="189"
             Height="22"
             Margin="10,104,0,0"
             HorizontalAlignment="Left"
@@ -71,7 +70,6 @@
         <TextBox
             x:Name="textbox_state"
             Grid.ColumnSpan="2"
-            Width="189"
             Height="20"
             Margin="10,70,0,0"
             HorizontalAlignment="Left"
@@ -83,7 +81,6 @@
         <TextBox
             x:Name="textbox_total"
             Grid.ColumnSpan="2"
-            Width="185"
             Height="20"
             Margin="10,140,0,0"
             HorizontalAlignment="Left"
